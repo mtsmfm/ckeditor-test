@@ -22,6 +22,12 @@ end
 
 gem 'jquery-rails'
 
+gem 'capybara'
+gem 'ckeditor', '4.0.4'
+gem 'poltergeist'
+gem 'pry'
+gem 'rspec-rails'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
