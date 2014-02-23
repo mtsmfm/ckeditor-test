@@ -1,5 +1,7 @@
 # ckeditor + poltergeist
 
+[![Build Status](https://travis-ci.org/mtsmfm/ckeditor-test.png?branch=master)](https://travis-ci.org/mtsmfm/ckeditor-test)
+
 Poltergeist (or Phantomjs) perhaps has a bug.
 
 In the following code, raise TimeoutError sometimes.
