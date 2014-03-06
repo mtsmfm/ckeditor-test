@@ -11,7 +11,7 @@ Dir[Rails.root.join("spec/support/**/*.rb")].each { |f| require f }
 require 'capybara/poltergeist'
 Capybara.javascript_driver = :poltergeist
 Capybara.register_driver :poltergeist do |app|
-  Capybara::Poltergeist::Driver.new(app)
+  Capybara::Poltergeist::Driver.new(app, timeout: 3600)
 end
 
 RSpec.configure do |config|
